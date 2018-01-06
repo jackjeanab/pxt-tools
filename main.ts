@@ -19,12 +19,12 @@ namespace tools {
 	/**
     * 判斷是否為質數
     */
-    //% blockId="PrimeNumber" block="Is it prime? InputNumber %InputNumber"
+    //% blockId="PrimeNumber" block="Is it prime number? InputNumber %InputNumber"
     //% blockGap=2 weight=1
     export function PrimeNumber(InputNumber: number): number {
         let count = 0
 		for (let i = 1; i <= InputNumber; i++) {
-			if (InputNumber%i == 0) {
+			if (InputNumber % i == 0) {
 				count = count + 1 
 			}
 		}
