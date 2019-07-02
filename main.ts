@@ -1,4 +1,4 @@
-//% weight=0 color=#3CB371 icon="\uf0ad" block="Books"
+//% weight=0 color=#3CB371 icon="\uf7d9" block="Books"
 namespace tools {
     /**
     * 計算長方形面積，並回傳
